@@ -1,0 +1,63 @@
+/* Page Numbers */
+.yaapc-pagenav {
+    padding: 0px;
+    margin: 6px 0;
+}
+
+.yaapc-pagenav a, .yaapc-pagenav span {
+    padding: 2px 4px;
+    margin-right: 3px;
+    border: 1px solid #fff;
+    background: #fff;
+}
+
+.yaapc-pagenav span.current {
+    border: 1px solid #2E6AB1;
+    font-weight: bold;
+    background: #2E6AB1;
+    color: #fff;
+}
+
+.yaapc-pagenav a {
+    border: 1px solid #9AAFE5;
+    text-decoration: none;
+}
+
+.yaapc-pagenav a:hover {
+    border-color: #2E6AB1;
+}
+
+.yaapc-pagenav a.nextprev {
+    font-weight: bold;
+}
+
+.yaapc-pagenav span.nextprev {
+    color: #666;
+}
+
+.yaapc-pagenav span.nextprev {
+    border: 1px solid #ddd;
+    color: #999;
+}
+
+
+#yaapc-comments-loading {
+	position: relative;
+	height: 60px;
+	width: 200px;
+	text-align: center;
+	line-height: 0;
+	background:transparent url(loading.gif) no-repeat center center;
+
+}
+#yaapc_message {margin-top:0.8em; margin-bottom:0.8em;}
+#yaapc_message .error,
+#yaapc_message .notice, 
+#yaapc_message .success    { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+#yaapc_message .error      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+#yaapc_message .notice     { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+#yaapc_message .success    { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+#yaapc_message .error a    { color: #8a1f11; }
+#yaapc_message .notice a   { color: #514721; }
+#yaapc_message .success a  { color: #264409; }
